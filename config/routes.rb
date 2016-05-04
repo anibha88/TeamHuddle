@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/about_team'
+
   devise_for :users
   #get 'welcome/index'
 
